@@ -1,0 +1,27 @@
+@import'./scss/reset.scss';
+
+
+body {
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+
+.btn {
+    padding: 10px 25px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+}
